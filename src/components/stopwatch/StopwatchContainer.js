@@ -10,7 +10,6 @@ const StopwatchContainer = () => {
   const intervalRef = useRef(null);
   const waitButtonRef = useRef(null);
 
-  // subscribe to rxjs interval
   const subscribeToInterval = (initSeconds = 0) => {
     if (intervalRef.current) return;
 
@@ -19,7 +18,6 @@ const StopwatchContainer = () => {
       .subscribe(setSeconds);
   };
 
-  // un subscribe to rxjs interval
   const unSubscribeToInterval = () => {
     if (!intervalRef.current) return;
 
@@ -27,22 +25,17 @@ const StopwatchContainer = () => {
     intervalRef.current = null;
   };
 
-  // start button event handler
   const onHandleStart = () => {
-    // seconds > 0 ? setSeconds(seconds) : setSeconds(0);
     setIsStarted(true);
     seconds > 0 ? subscribeToInterval(seconds) : subscribeToInterval();
-    // subscribeToInterval();
   };
 
-  // stop button event handler
   const onHandleStop = () => {
     setSeconds(0);
     setIsStarted(false);
     unSubscribeToInterval();
   };
 
-  // restart button event handler
   const onHandleReset = () => {
     setSeconds(0);
     setIsStarted(true);
