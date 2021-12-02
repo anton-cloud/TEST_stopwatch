@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/anton-cloud/stopwatch/static/css/main.afd7172b.chunk.css",
+    "main.js": "/anton-cloud/stopwatch/static/js/main.18c6a787.chunk.js",
+    "main.js.map": "/anton-cloud/stopwatch/static/js/main.18c6a787.chunk.js.map",
+    "runtime-main.js": "/anton-cloud/stopwatch/static/js/runtime-main.e95ef0bd.js",
+    "runtime-main.js.map": "/anton-cloud/stopwatch/static/js/runtime-main.e95ef0bd.js.map",
+    "static/js/2.6bc6eed1.chunk.js": "/anton-cloud/stopwatch/static/js/2.6bc6eed1.chunk.js",
+    "static/js/2.6bc6eed1.chunk.js.map": "/anton-cloud/stopwatch/static/js/2.6bc6eed1.chunk.js.map",
+    "index.html": "/anton-cloud/stopwatch/index.html",
+    "static/css/main.afd7172b.chunk.css.map": "/anton-cloud/stopwatch/static/css/main.afd7172b.chunk.css.map",
+    "static/js/2.6bc6eed1.chunk.js.LICENSE.txt": "/anton-cloud/stopwatch/static/js/2.6bc6eed1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e95ef0bd.js",
+    "static/js/2.6bc6eed1.chunk.js",
+    "static/css/main.afd7172b.chunk.css",
+    "static/js/main.18c6a787.chunk.js"
+  ]
+}
